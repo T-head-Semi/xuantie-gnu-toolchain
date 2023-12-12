@@ -270,7 +270,9 @@ MUSL_SRC_GIT :=
 endif
 
 $(srcdir)/%/.git:
-	cd $(srcdir)
+	cd $(srcdir) && \
+	flock `git rev-parse --git-dir`/config git submodule init $(dir $@) && \
+	flock `git rev-parse --git-dir`/config git submodule update $(dir $@)
 
 #
 # GLIBC
