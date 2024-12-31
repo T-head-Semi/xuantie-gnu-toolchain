@@ -7,7 +7,7 @@ toolchain.
 
 Prebuild toolchain can be downloaded from resource center of OCC: https://www.xrvm.cn/community/download
 
-For more information and getting technical support, please visit OCC website (Open Chip Community)：ttps://www.xrvm.cn/
+For more information and getting technical support, please visit OCC website (Open Chip Community)：https://www.xrvm.cn/
 
 ###  Getting the sources
 
