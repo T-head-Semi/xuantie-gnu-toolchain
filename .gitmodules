@@ -1,22 +1,29 @@
 [submodule "riscv-binutils"]
 	path = riscv-binutils
 	url = ../binutils-gdb.git
+	shallow = true
 [submodule "riscv-gcc"]
 	path = riscv-gcc
 	url = ../gcc.git
+	shallow = true
 [submodule "riscv-glibc"]
 	path = riscv-glibc
 	url = ../glibc.git
+	shallow = true
 [submodule "riscv-dejagnu"]
 	path = riscv-dejagnu
 	url = https://github.com/riscv-collab/riscv-dejagnu.git
 	branch = riscv-dejagnu-1.6
+	shallow = true
 [submodule "riscv-newlib"]
 	path = riscv-newlib
 	url = ../newlib.git
+	shallow = true
 [submodule "riscv-gdb"]
 	path = riscv-gdb
 	url = ../binutils-gdb.git
+	shallow = true
 [submodule "qemu"]
 	path = qemu
 	url = ../qemu
+	shallow = true
